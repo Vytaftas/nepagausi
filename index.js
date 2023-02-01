@@ -20,6 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
             'Ojej koks turtingas, net €100 nereikia..',
             'Ko nespaudi?',
             'Taigi paspausk ir viskas..',
+            'special',
             'SPAUSK PASAKIAU!',
             'Nespausi?',
             'Negi taip sunku paspausti..',
