@@ -22,9 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
             'Taigi paspausk ir viskas..',
             'SPAUSK PASAKIAU!',
             'Nespausi?',
-            'Paspausk gi..',
             'Negi taip sunku paspausti..',
-            'SPAAAAAAUSK',
             'Gerai gerai nespausk, kas nors kitas paspaus..',
             'special',
         ];
