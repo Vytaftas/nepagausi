@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.container,
+.mob {
+    width: 100vw;
+    height: 100vh;
+}
+
+.mob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.nepagausi {
+    padding: 10px 30px;
+    background-color: rgb(57, 119, 255);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.151);
+    font-weight: 500;
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.special {
+    animation: specialColors 0.3s infinite ease-in;
+    animation-direction: alternate;
+}
+
+@keyframes specialColors {
+    0% {
+        background-color: rgb(57, 119, 255);
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.hidden {
+    display: none;
+}
